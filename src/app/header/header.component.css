@@ -1,0 +1,11 @@
+.header {
+    width : 100%;
+    background-color: #1385ef;
+}
+
+h1 {
+    text-align: left;
+    color: white;
+    padding: 0.5%;
+    font-family: Chalkduster, fantasy;
+}
