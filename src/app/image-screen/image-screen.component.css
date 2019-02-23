@@ -1,0 +1,28 @@
+
+.add-image-button {
+    font-size: 85%;
+    background-color: #1385ef;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    float : right;
+    margin-right : 3%;
+    margin-top : 1%;
+    border-radius: 25px;
+}
+
+.add-image-button:hover {
+    background-color: #066ece;
+}
+
+.add-image-button:active {
+    outline: none;
+    border: none;
+}
+
+.add-image-button:focus {
+    outline: 0;
+}

@@ -22,4 +22,12 @@ describe('ImageScreenComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render add image text for the button', () => {
+    const fixture = TestBed.createComponent(ImageScreenComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('button').textContent).toContain('Add Image');
+  });
+
 });
